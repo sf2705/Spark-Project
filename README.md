@@ -64,6 +64,16 @@ This project is aiming for identify customer churn in advance for Sparkify, a mu
 Sparkify.ipynb 
 README.md
 
-#### 6.Licensing, Authors, Acknowledgements 
+#### 6.Results and Improvements
+
+By comparing logistic regression model with different parameters and different ways of normalizing data, we achived AUC as 0.713 and F1 score as 0.33 in our validation set. By appying model to test set, we got AUC as 0.696 with accuracy 0.657. Unfortunately, we don't have a F1 score for our test data because both of our precision and recall is 0. We did not successfully identify any user churn in our test data.
+
+Here are some improvements we can make in the future:
+
+1. Train, Validate and Test on a larger amount of data. 
+2. Feature selection: In current models, we only use web page interactions as our features, but we can perform a feature selection or PCA on many more variables to choose the features that are mostly related to churn.
+3. Try more different models. We can also try to implement K-Nearest Neighbors or decision tree to see if there is any improvements.
+
+#### 7.Licensing, Authors, Acknowledgements 
 
 Data coming from Udacity Data Science Nano Program
