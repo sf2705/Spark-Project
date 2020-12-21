@@ -2,7 +2,7 @@
 
 ### Notes:
 
-1. There is a blog post in [Medium - Sparkify Project]()
+1. There is a blog post in [Medium - Sparkify Project](https://siqifeng.medium.com/predict-churn-of-sparkify-b58f29f08a7)
 
 
 #### 1. Installations
